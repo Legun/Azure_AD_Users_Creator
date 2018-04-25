@@ -123,7 +123,7 @@ public final class PasswordGenerator {
         Random random = new Random(System.nanoTime());
 
         // Collect the categories to use.
-        List<String> charCategories = new ArrayList<>(4);
+        List<String> charCategories = new ArrayList<String>(4);
         if (useLower) {
             charCategories.add(LOWER);
         }
